@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Tendele Craft feature.
+ */
+
+include_once 'tendele_craft.features.inc';

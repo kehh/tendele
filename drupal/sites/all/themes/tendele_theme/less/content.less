@@ -1,0 +1,15 @@
+// Insert your styling here.
+.main-container {
+    position: relative;
+    top: 110px/2;
+    background-color: lighten(@bodyBackground, 10%);
+    padding: @contentAndFooterPadding;
+}
+// Active state, and it's :hover/:focus to override normal :hover/:focus
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  background-color: lighten(@bodyBackground, 30%);
+}
+
+
